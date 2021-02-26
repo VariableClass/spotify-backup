@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import argparse 
 import codecs
 import http.client
@@ -15,7 +13,6 @@ import urllib.request
 import webbrowser
 
 logging.basicConfig(level=20, datefmt='%I:%M:%S', format='[%(asctime)s] %(message)s')
-
 
 class SpotifyAPI:
 	
